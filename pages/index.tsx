@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to learn about this legal case?',
+        message: 'Hi, how can I assist you today?',
         type: 'apiMessage',
       },
     ],
@@ -261,8 +261,8 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
+          <a href="https://offsec.com">
+            Powered by LangChainAI. Demo built by Sid.
           </a>
         </footer>
       </Layout>
