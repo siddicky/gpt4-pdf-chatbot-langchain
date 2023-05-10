@@ -40,6 +40,6 @@ export const makeChain = (vectorstore: PineconeStore) => {
     combineDocumentsChain: docChain,
     questionGeneratorChain: questionGenerator,
     returnSourceDocuments: true,
-    k: 4, //number of source documents to return. Change this figure as required.
+    k: 2, //number of source documents to return. Change this figure as required.
   });
 };
